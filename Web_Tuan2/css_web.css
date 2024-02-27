@@ -1,0 +1,37 @@
+﻿body {
+    background-color: white;
+}
+
+    body .top-bar {
+        background-color: gray;
+    }
+
+        body .top-bar .main-bar {
+            width: 80%;
+            background-color: green;
+            margin: auto;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+        }
+
+            body .top-bar .main-bar .contact-left,
+            body .top-bar .main-bar .login-right {
+                display: flex; 
+                align-items: center;
+            }
+
+            body .top-bar .main-bar .contact-left {
+                flex-grow: 4;
+                background-color: blueviolet;
+                gap: 10px; 
+            }
+
+            body .top-bar .main-bar .login-right {
+                flex-grow: 2;
+                background-color: palegreen;
+            }
+
+    body .main-content {
+        background-color: lightgray;
+    }
